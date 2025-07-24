@@ -1,0 +1,18 @@
+.kt-login-header{
+    display: flex;
+    display: -webkit-flex;
+}
+.kt-login-header > div{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+.kt-login-header > div:hover{
+    color: #3a5aff;
+}
+.kt-login-header > div.active{
+    border-color: #3a5aff;
+}
+.kt-ulogin-item:not(.active){
+    display: none;
+}

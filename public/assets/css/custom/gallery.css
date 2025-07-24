@@ -1,0 +1,87 @@
+								.kt-image_list{
+                                    width: 100%;
+                                    display: flex;
+                                    display: -webkit-flex;
+                                    flex-wrap: wrap;
+                                }
+								.kt-image_list_mini{
+									justify-content: flex-start;
+								}
+                                .kt-image_list > .item{
+                                    width: 24.5%;
+                                    height: 150px;
+                                    overflow: hidden;
+                                    border-radius: 5px;
+                                    margin-bottom: 1%;
+                                    cursor: pointer;
+                                    padding: 5px;
+                                }
+								.kt-image_list_mini > .item{
+									margin-right: 5px;
+								}
+								.kt-image_list > .item.mini{
+									width: 80px;
+									height: 80px;
+								}
+                                .kt-image_list > .item > img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    border: 1px solid #dbdbdb;
+                                }
+                                .gallery-slider{
+                                    width: 100%;
+                                    height: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    background-color: rgba(36, 43, 56, .8);
+                                    position: fixed;
+                                    z-index: 999999999999999;
+                                    display: none;
+                                }
+                                .gallery-slider > div{
+                                    justify-content: center;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                .gallery-slider > div, .gallery-slider > div > div{
+                                    display: flex;
+                                    display: -webkit-flex;
+                                    align-items: center;
+                                }
+                                .gallery-slider > div > div{
+                                    width: 100%;
+                                    justify-content: space-between;
+                                }
+                                .gallery-slider > div > div i{
+                                    font-size: 300%;
+                                    color: #fff;
+                                    text-shadow: 1px 1px 1px rgba(0,0,0,0.14);
+                                    margin: 0 20px;
+                                }
+                                .garea{
+                                    width: 100%;
+                                    position: absolute;
+                                    z-index: -1;
+                                    display: flex;
+                                    display: -webkit-flex;
+                                    justify-content: center;
+                                }
+                                .garea img{
+                                    max-height: 90vh;
+                                    max-width: 100vw;
+                                    border-radius:3px;
+                                    box-shadow: 0 1px 1px 2px rgba(0,0,0,0.14);
+                                }
+                                .gallery-closer{
+                                    position: absolute !important;
+                                    right: 0;
+                                    color: #fff;
+                                    text-shadow: 1px 1px 1px rgba(0,0,0,0.14);
+                                    margin: 20px 20px;
+									cursor: pointer;
+                                }
+                                .gallery-slider-btn.inactive{
+                                    pointer-events: none;
+                                    opacity: .2;
+                                }

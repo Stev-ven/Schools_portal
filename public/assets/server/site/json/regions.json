@@ -1,0 +1,18 @@
+[
+    {"region_id":"1","region_name":"Northern","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"2","region_name":"Ashanti","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"3","region_name":"Western","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"4","region_name":"Volta","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"5","region_name":"Eastern","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"6","region_name":"Upper West","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"7","region_name":"Central","datetime_added":"2021-02-20 15:43:02"}, 
+    {"region_id":"8","region_name":"Upper East","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"9","region_name":"Greater Accra","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"10","region_name":"Savannah","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"11","region_name":"North East","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"12","region_name":"Bono East","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"13","region_name":"Oti","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"14","region_name":"Ahafo","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"15","region_name":"Bono","datetime_added":"2021-02-20 15:43:03"}, 
+    {"region_id":"16","region_name":"Western North","datetime_added":"2021-02-20 15:43:03"}
+]

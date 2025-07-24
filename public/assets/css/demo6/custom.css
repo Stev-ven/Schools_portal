@@ -1,0 +1,120 @@
+.text-blue {
+    color: #2980B9;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #FF416C;
+    border-color: #FF416C;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: rgb(194, 31, 69);
+    border-color: rgb(194, 31, 69);
+}
+
+.btn-danger:focus,
+.btn-danger.focus {
+    box-shadow: 0 0 0 0.2rem rgb(194, 31, 69, 0.5);
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+    color: #fff;
+    background-color: #FF416C;
+    border-color: #FF416C;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active,
+.btn-danger:not(:disabled):not(.disabled).active,
+.show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #FF416C;
+    border-color: #FF416C;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(253, 71, 238, 0.5);
+}
+.modal-lg{
+    max-width: 80%;
+}
+
+.modal-xlg{
+    max-width: 98%;
+}
+
+.bg-cyan-lighten{
+    background-color: #ffe082;
+}
+
+.table th, .table td.no_v, th.no_v {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #ebedf2;
+}
+i.text-error, span.text-error{
+    color: #FF416C;
+}
+
+.bg-green{
+   background-color: #D5EAFF;
+   color: #24201d;
+}
+
+.light-blue{
+    background-color: #D5EAFF;
+}
+
+.light-red{
+    background-color:#FFE8E8;
+}
+
+.btn-light {
+    background-color: rgb(45, 109, 192);
+    color: #FFFFFF;
+    border-color: rgb(45, 109, 192);
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color: rgb(13, 45, 87);
+    border-color: rgb(13, 45, 87);
+}
+.btn-light:focus {
+    color: #fff;
+    background-color: rgb(45, 109, 192);
+    border-color: rgb(45, 109, 192);
+}
+.btn-light:active {
+    color: #fff;
+    background-color: rgb(45, 109, 192);
+    border-color: rgb(45, 109, 192);
+}
+
+h5.kt-portlet__head-title.text-table-light{
+    color:#4E716E;
+}
+.light-white-green{
+background-color: #cfc;
+}
+
+.light-white-pink{
+    background-color:#ffb2b2;
+}
+
+span.badge.badge-brand{
+    background-color:#36b4ee;
+    color:#fff;
+}
+
+a.btn i.fa.fa-play.spin:hover{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

@@ -1,0 +1,154 @@
+/* Simple modal */
+.simple-modal-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(36,43,56, .8);
+}
+.simple-modal-container.closed{
+    display: none;
+}
+.simple-modal-container > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-y: auto;
+}
+.simple-modal-container > div > div{
+    width: 90%;
+    max-width: 500px;
+    min-width: 320px;
+    margin: 25px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+}
+.simple-modal-container > div > div.maxw{
+    max-width: 700px;
+}
+.simple-modal-container > div > div.anime{
+    transform: scale(0.70);
+}
+.simple-modal-container > div > div > div{
+    width: 100%;
+    padding: 20px;
+}
+.simple-modal-header{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.14);
+}
+.simple-modal-header.pdb-0{
+    padding-bottom: 0;
+}
+.simple-modal-footer{
+    text-align: right;
+}
+.simple-modal-header h2 {
+    font-size: 1.25rem;
+}
+.simple-modal-header.with-border-bottom{
+    border-bottom: 1px solid #dbdbdb;
+}
+.simple-modal-main-content{
+    width: 100%;
+    max-height: 65vh;
+    overflow-y: auto;
+}
+.simple-modal-input-item{
+    width: 100%;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 8px 0;
+    font-size: 0.95rem;
+    border: 1px solid #eee;
+}
+textarea.simple-modal-input-item{
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+    max-height: 150px;
+}
+textarea.simple-modal-input-item.shrt{
+    height: 90px !important;
+    min-height: 90px;
+}
+.cl-btn{
+    border-width: 0;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+select.simple-modal-input-item{
+    border: 1px solid #dbdbdb;
+}
+.fwb{
+    font-weight: bold;
+}
+.grey{
+    color: #808080 !important;
+}
+.roboto{
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.g-sans-b{
+    font-family: 'Google Sans Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.g-sans-l{
+    font-family: 'Google Sans Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.simple-modal-submit-btn{
+    border-width: 0;
+    border-radius: 3px;
+}
+.mbr{
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 15px;
+    display: block;
+    border-radius: 3px;
+}
+span.affiliate-profile-name {
+    vertical-align: middle;
+}
+.abt-loader.loading-item{
+    margin-bottom: 100px;
+}
+.abt-container p{
+    font-size: 1.2rem;
+    line-height: inherit;
+    font-weight: 400;
+}
+.abt-container h2{
+    margin: 25px 0;
+}
+.simple-modal-submit-btn{
+    padding: 10px 20px;
+    background-color: #007aff;
+    color: #fff;
+    border-width: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.simple-modal-submit-btn:hover{
+    background-color: #0057a3;
+}
+/* /Simple modal */
+@media screen and (max-width: 600px){
+    .simple-modal-header h2 {
+        font-size: 1.25rem;
+    }
+}

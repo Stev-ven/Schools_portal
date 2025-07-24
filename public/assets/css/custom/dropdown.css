@@ -1,0 +1,83 @@
+.cur{
+    cursor: pointer;
+}
+.dropdown-menu-2{
+    position: relative;
+}
+.dropdown-menu-2 > ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding: 10px 0px;
+    width: 250px;
+    top: 100%;
+    margin-top: 4px;
+    box-shadow: 0 8px 10px 1px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 10;
+    right: 10%;
+    text-align: left;
+}
+.uac-box.dropdown-menu-2 > ul.drop-child-item{
+    width: 280px;
+    right: 0;
+}
+.dropdown-menu-2 > ul > li{
+    display: block;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 10px;
+}
+.dropdown-menu-2 > ul > li:not(.disabled):hover{
+    background-color: #ebebeb;
+    color: #000;
+}
+.dropdown-menu-2 > ul > li:nth-last-of-type(1){
+    border-bottom-width: 0;
+}
+.dropdown-menu-2 > ul > li > a, .dropdown-menu-2 > ul > li > div, .dropdown-menu-2 > ul > li > a > div{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #333 !important;
+}
+.dropdown-menu-2 > ul > li > a > div:first-child, .dropdown-menu-2 > ul > li > div > div:first-child, .dropdown-menu-2 > ul > li > a > div > div:first-child{
+    min-width: 10px;
+    max-width: 10px;
+}
+.dropdown-menu-2 > ul > li > a > div, .dropdown-menu-2 > ul > li > div > div, .dropdown-menu-2 > ul > li > a > div > div{
+    padding: 5px 8px;
+}
+.uac-box.dropdown-menu-2 > ul > li > a > div, .uac-box.dropdown-menu-2 > ul > li > div > div, .uac-box.dropdown-menu-2 > ul > li > a > div > div{
+    padding: 7px 10px;
+}
+.uac-box.dropdown-menu-2 > ul > li > a > div:nth-child(2), .uac-box.dropdown-menu-2 > ul > li > div > div:nth-child(2), .uac-box.dropdown-menu-2 > ul > li > a > div > div:nth-child(2){
+    flex-grow: 1;
+    text-align: left;
+    font-weight: 500;
+}
+.drop-child-item{
+    transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    display: none;
+}
+.drop-child-item.marto{
+    margin-top: 50px !important;
+}
+.line-sep-top{
+    border-top: 1px solid #dbdbdb !important;
+}
+.line-sep-bottom{
+    border-bottom: 1px solid #dbdbdb !important;
+}
+.drop-btn *{
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+.drop-btn-icon{
+    font-size: 2rem;
+    cursor: pointer;
+}

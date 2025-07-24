@@ -1,0 +1,58 @@
+	[
+        {
+            "skill_category": "artisans",
+            "skill_category_title": "Artisans",
+            "skill_category_title_two": "Artisans & Handy workers",
+            "skill_category_title_short": "Artisans",
+            "skill_description": "For Electricians, Plumbers, Building and Contracting etc."
+        },
+        {
+            "skill_category": "programming-tech",
+            "skill_category_title": "Programming & IT (Website, CMS, Apps. etc.)",
+            "skill_category_title_two": "Website, Software, Mobile apps, IT, CMS, Wordpress, Blog etc.",
+            "skill_category_title_short": "Programming & IT",
+            "skill_description": "Targets website developers, software engineers, mobile app developers, security experts. etc."
+        },
+        {
+            "skill_category": "graphic-design",
+            "skill_category_title": "Design & Creative (Logo, Flyer, etc.)",
+            "skill_category_title_two": "Graphic & design, Logo, Branding, Flyer creation etc.",
+            "skill_category_title_short": "Design & Creative",
+            "skill_description": "For logo designers, Adobe experts, UI/UX, Product designers. etc."
+        },
+        {
+            "skill_category": "digital-marketing",
+            "skill_category_title": "Digital Marketing (SEO, Social media, UI etc.)",
+            "skill_category_title_two": "Digital Marketing, Advertising, Social media & SEO",
+            "skill_category_title_short": "Digital Marketing",
+            "skill_description": "Online marketers, Facebook Ad experts, email marketing. etc."
+        },
+        {
+            "skill_category": "video-animation",
+            "skill_category_title": "Video & Animation (2D & 3D, Editing, etc.)",
+            "skill_category_title_two": "Video, 2D/3D Animation, Editing, Display ads & 3D Modelling",
+            "skill_category_title_short": "Video & Animation",
+            "skill_description": "For animators, Video Ads experts, video editors, etc."
+        },
+        {
+            "skill_category": "writing-translation",
+            "skill_category_title": "Writing & Translation (Data entry, Writing, etc.)",
+            "skill_category_title_two": "Writing, Data entry, Proofreading, E-books & Translation",
+            "skill_category_title_short": "Writing & Translation",
+            "skill_description": "Targets Content Writers, Data Entry Specialist, Typography, .etc."
+        },
+        {
+            "skill_category": "business",
+            "skill_category_title": "Business & Accounting (Bookkeeping, etc.)",
+            "skill_category_title_two": "Business & Accounting",
+            "skill_category_title_short": "Business & Accounting",
+            "skill_description": "For business developers, branding, .etc."
+        },
+        {
+            "skill_category": "art-culture",
+            "skill_category_title": "Art & Lifestyle (Caricature art, Chess, Checkers etc.)",
+            "skill_category_title_two": "Art & Lifestyle",
+            "skill_category_title_short": "Art & Lifestyle",
+            "skill_description": "Caricature Art, Catoon specialists. etc."
+        }
+    ]
